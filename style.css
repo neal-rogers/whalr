@@ -1,0 +1,109 @@
+@media screen and (max-width: 700px) {
+	header h1 {
+		padding-left: .25em;
+	}
+
+	header h2, header h3 {
+		padding-left: 1em;
+	}
+}
+
+body {
+	font-family: "Sintony";
+	color: #FAFAFA;
+	letter-spacing: 3px;
+}
+
+header ul {
+	padding-bottom: 2em;
+	float: right;
+	margin-top: -.15em;
+}
+
+header ul li {
+	display: inline;
+	letter-spacing: 5px;
+	padding-right: 2em;
+	text-transform: uppercase;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #FF8B60;
+}
+
+header ul li a:hover {
+	color: #9494FF;
+}
+
+header {
+	padding: 2em 1em;
+	background-color: #6E7E85;
+	background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(whalr-header.jpg);
+	height: 75vh;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 4em;
+	color: #FAFAFA;
+	letter-spacing: 15px;
+	padding-bottom: 1em;
+	padding-left: 2em;
+}
+
+header h2, header h3 {
+	color: #FFF;
+	max-width: 40em;
+	padding-left: 8em;
+	line-height: 2em;
+}
+
+header h1, header h2, header h3 {
+	position: relative;
+	top: 25%;
+	transform: translateY(25%);
+}
+
+header h3 {
+	padding-top: 2.5em;
+}
+
+header h3 a {
+	background-color: #FF8B60;
+	border-radius: 5px;
+	color: #FAFAFA;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+
+header h3 a:hover {
+	transition: ease-in-out .5s;
+	background-color: #9494FF;
+}
+
+header h4 {
+	color: #FFF;
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+.image-container {
+	float: left;
+	margin-right: 1em;
+}
+
+.presentation-main {
+	height: 80vh;
+	max-width: 60em;
+	padding-left: 2em;
+	padding-top: 2em;
+}
+
+.temp-img-box {
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+}
